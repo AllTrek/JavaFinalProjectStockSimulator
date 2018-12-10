@@ -1,0 +1,72 @@
+*{
+    
+dark-primary-color: #388E3C; 
+default-primary-color: #8BC34A; 
+light-primary-color:  #C8E6C9; 
+text-primary-color: #FFFFFF; 
+accent-color: #03A9F4; 
+primary-text-color: #212121; 
+secondary-text-color:#757575; 
+divider-color:#BDBDBD; 
+ 
+}
+
+.root{
+/*    -fx-background-color: default-primary-color;*/
+}
+
+.table-column {
+    -fx-alignment: CENTER;
+}
+
+
+.table-row-cell:selected {
+    -fx-background-color: #43BD40;
+
+}
+
+
+
+
+/*Background color of top lables */
+
+
+.column-header-background{
+    -fx-background-color: transparent;
+/*    -fx-background-color: #ffffff;*/
+    -fx-text-fill: #2A754B;
+}
+
+
+
+
+/*text color of top lables*/
+
+.column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: #1ba03a;
+}
+
+
+
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+
+.column-header .label {
+    -fx-padding : 15 0 15 0 ;
+}
+
+
+
+
+
+/*The border of the head*/
+.column-header{
+    -fx-border-width : 0.5 0.5 0.5 0.5;
+    -fx-border-color: #EDEDED;
+}
+
+
